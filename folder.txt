@@ -1,0 +1,35 @@
+notes-task-api/
+│
+├── node_modules/
+│
+├── public/
+│   ├── index.html
+│   ├── css/
+│   │   └── style.css
+│   │
+│   └── js/
+│       └── app.js
+│
+├── src/
+│   ├── config/
+│   │   └── db.js
+│   │
+│   ├── controllers/
+│   │   └── noteController.js
+│   │
+│   ├── middleware/
+│   │   ├── errorMiddleware.js
+│   │   └── validationMiddleware.js
+│   │
+│   ├── models/
+│   │   └── Note.js
+│   │
+│   ├── routes/
+│   │   └── noteRoutes.js
+│   │
+│   └── app.js
+│
+├── .env
+├── .gitignore
+├── package.json
+└── server.js
